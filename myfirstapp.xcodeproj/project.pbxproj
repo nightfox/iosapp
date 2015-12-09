@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		195B1B4F1C185ECD00CA1780 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195B1B4E1C185ECD00CA1780 /* FBSDKShareKit.framework */; };
+		195B1B511C187CAB00CA1780 /* ApiSignup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195B1B501C187CAB00CA1780 /* ApiSignup.swift */; };
 		19B7DB2E1C18149800E89B0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B7DB2D1C18149800E89B0E /* AppDelegate.swift */; };
 		19B7DB301C18149800E89B0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B7DB2F1C18149800E89B0E /* ViewController.swift */; };
 		19B7DB331C18149800E89B0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B7DB311C18149800E89B0E /* Main.storyboard */; };
@@ -14,6 +16,10 @@
 		19B7DB381C18149800E89B0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B7DB361C18149800E89B0E /* LaunchScreen.storyboard */; };
 		19B7DB431C18149800E89B0E /* myfirstappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B7DB421C18149800E89B0E /* myfirstappTests.swift */; };
 		19B7DB4E1C18149800E89B0E /* myfirstappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B7DB4D1C18149800E89B0E /* myfirstappUITests.swift */; };
+		19B7DB5C1C1829D900E89B0E /* ApiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B7DB5B1C1829D900E89B0E /* ApiHelper.swift */; };
+		19B7DB631C18333D00E89B0E /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B7DB621C18333D00E89B0E /* FBSDKCoreKit.framework */; };
+		19B7DB651C18354600E89B0E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B7DB641C18354600E89B0E /* FBSDKLoginKit.framework */; };
+		19B7DB671C18376700E89B0E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7DB661C18376700E89B0E /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		195B1B4E1C185ECD00CA1780 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		195B1B501C187CAB00CA1780 /* ApiSignup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiSignup.swift; sourceTree = "<group>"; };
 		19B7DB2A1C18149700E89B0E /* myfirstapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myfirstapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19B7DB2D1C18149800E89B0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19B7DB2F1C18149800E89B0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		19B7DB491C18149800E89B0E /* myfirstappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myfirstappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19B7DB4D1C18149800E89B0E /* myfirstappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myfirstappUITests.swift; sourceTree = "<group>"; };
 		19B7DB4F1C18149800E89B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19B7DB5B1C1829D900E89B0E /* ApiHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiHelper.swift; sourceTree = "<group>"; };
+		19B7DB621C18333D00E89B0E /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		19B7DB641C18354600E89B0E /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		19B7DB661C18376700E89B0E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19B7DB651C18354600E89B0E /* FBSDKLoginKit.framework in Frameworks */,
+				19B7DB631C18333D00E89B0E /* FBSDKCoreKit.framework in Frameworks */,
+				195B1B4F1C185ECD00CA1780 /* FBSDKShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +92,8 @@
 		19B7DB211C18149700E89B0E = {
 			isa = PBXGroup;
 			children = (
+				19B7DB661C18376700E89B0E /* Default-568h@2x.png */,
+				19B7DB5D1C18310000E89B0E /* Frameworks */,
 				19B7DB2C1C18149700E89B0E /* myfirstapp */,
 				19B7DB411C18149800E89B0E /* myfirstappTests */,
 				19B7DB4C1C18149800E89B0E /* myfirstappUITests */,
@@ -103,6 +120,8 @@
 				19B7DB341C18149800E89B0E /* Assets.xcassets */,
 				19B7DB361C18149800E89B0E /* LaunchScreen.storyboard */,
 				19B7DB391C18149800E89B0E /* Info.plist */,
+				19B7DB5B1C1829D900E89B0E /* ApiHelper.swift */,
+				195B1B501C187CAB00CA1780 /* ApiSignup.swift */,
 			);
 			path = myfirstapp;
 			sourceTree = "<group>";
@@ -123,6 +142,16 @@
 				19B7DB4F1C18149800E89B0E /* Info.plist */,
 			);
 			path = myfirstappUITests;
+			sourceTree = "<group>";
+		};
+		19B7DB5D1C18310000E89B0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				195B1B4E1C185ECD00CA1780 /* FBSDKShareKit.framework */,
+				19B7DB641C18354600E89B0E /* FBSDKLoginKit.framework */,
+				19B7DB621C18333D00E89B0E /* FBSDKCoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +222,7 @@
 				TargetAttributes = {
 					19B7DB291C18149700E89B0E = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = MA5D27PFJV;
 					};
 					19B7DB3D1C18149800E89B0E = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -230,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19B7DB381C18149800E89B0E /* LaunchScreen.storyboard in Resources */,
+				19B7DB671C18376700E89B0E /* Default-568h@2x.png in Resources */,
 				19B7DB351C18149800E89B0E /* Assets.xcassets in Resources */,
 				19B7DB331C18149800E89B0E /* Main.storyboard in Resources */,
 			);
@@ -258,6 +289,8 @@
 			files = (
 				19B7DB301C18149800E89B0E /* ViewController.swift in Sources */,
 				19B7DB2E1C18149800E89B0E /* AppDelegate.swift in Sources */,
+				195B1B511C187CAB00CA1780 /* ApiSignup.swift in Sources */,
+				19B7DB5C1C1829D900E89B0E /* ApiHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +432,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = /Users/Archangel/Documents/FacebookSDK;
 				INFOPLIST_FILE = myfirstapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anirvan.personal.myfirstapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +451,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = /Users/Archangel/Documents/FacebookSDK;
 				INFOPLIST_FILE = myfirstapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anirvan.personal.myfirstapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +533,7 @@
 				19B7DB541C18149800E89B0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19B7DB551C18149800E89B0E /* Build configuration list for PBXNativeTarget "myfirstappTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +542,7 @@
 				19B7DB571C18149800E89B0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19B7DB581C18149800E89B0E /* Build configuration list for PBXNativeTarget "myfirstappUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +551,7 @@
 				19B7DB5A1C18149800E89B0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
