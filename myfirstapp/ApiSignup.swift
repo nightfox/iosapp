@@ -10,8 +10,7 @@ import Foundation
 
 class ApiSignup: ApiHelper {
     
-    func signupUser() -> Bool {
-        
+    func signupUser() -> Bool {        
         return true
     }
 }

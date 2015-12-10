@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		195B1B4F1C185ECD00CA1780 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 195B1B4E1C185ECD00CA1780 /* FBSDKShareKit.framework */; };
 		195B1B511C187CAB00CA1780 /* ApiSignup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195B1B501C187CAB00CA1780 /* ApiSignup.swift */; };
+		195B1B531C19470A00CA1780 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195B1B521C19470A00CA1780 /* SecondViewController.swift */; };
+		195B1B551C19A95700CA1780 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195B1B541C19A95700CA1780 /* UserModel.swift */; };
 		19B7DB2E1C18149800E89B0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B7DB2D1C18149800E89B0E /* AppDelegate.swift */; };
 		19B7DB301C18149800E89B0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B7DB2F1C18149800E89B0E /* ViewController.swift */; };
 		19B7DB331C18149800E89B0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B7DB311C18149800E89B0E /* Main.storyboard */; };
@@ -17,9 +18,8 @@
 		19B7DB431C18149800E89B0E /* myfirstappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B7DB421C18149800E89B0E /* myfirstappTests.swift */; };
 		19B7DB4E1C18149800E89B0E /* myfirstappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B7DB4D1C18149800E89B0E /* myfirstappUITests.swift */; };
 		19B7DB5C1C1829D900E89B0E /* ApiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B7DB5B1C1829D900E89B0E /* ApiHelper.swift */; };
-		19B7DB631C18333D00E89B0E /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B7DB621C18333D00E89B0E /* FBSDKCoreKit.framework */; };
-		19B7DB651C18354600E89B0E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B7DB641C18354600E89B0E /* FBSDKLoginKit.framework */; };
 		19B7DB671C18376700E89B0E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19B7DB661C18376700E89B0E /* Default-568h@2x.png */; };
+		52D56316DD0B59C2B77693FE /* Pods_myfirstapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6827C18494DA9B955A0B4849 /* Pods_myfirstapp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		195B1B4E1C185ECD00CA1780 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
 		195B1B501C187CAB00CA1780 /* ApiSignup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiSignup.swift; sourceTree = "<group>"; };
+		195B1B521C19470A00CA1780 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		195B1B541C19A95700CA1780 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		19B7DB2A1C18149700E89B0E /* myfirstapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myfirstapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19B7DB2D1C18149800E89B0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19B7DB2F1C18149800E89B0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,9 +57,10 @@
 		19B7DB4D1C18149800E89B0E /* myfirstappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myfirstappUITests.swift; sourceTree = "<group>"; };
 		19B7DB4F1C18149800E89B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		19B7DB5B1C1829D900E89B0E /* ApiHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiHelper.swift; sourceTree = "<group>"; };
-		19B7DB621C18333D00E89B0E /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		19B7DB641C18354600E89B0E /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		19B7DB661C18376700E89B0E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2D96447BA073CC93F8AB0895 /* Pods-myfirstapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myfirstapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myfirstapp/Pods-myfirstapp.debug.xcconfig"; sourceTree = "<group>"; };
+		4AC3DE07FEA5F76525FE8555 /* Pods-myfirstapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myfirstapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-myfirstapp/Pods-myfirstapp.release.xcconfig"; sourceTree = "<group>"; };
+		6827C18494DA9B955A0B4849 /* Pods_myfirstapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myfirstapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19B7DB651C18354600E89B0E /* FBSDKLoginKit.framework in Frameworks */,
-				19B7DB631C18333D00E89B0E /* FBSDKCoreKit.framework in Frameworks */,
-				195B1B4F1C185ECD00CA1780 /* FBSDKShareKit.framework in Frameworks */,
+				52D56316DD0B59C2B77693FE /* Pods_myfirstapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +98,7 @@
 				19B7DB411C18149800E89B0E /* myfirstappTests */,
 				19B7DB4C1C18149800E89B0E /* myfirstappUITests */,
 				19B7DB2B1C18149700E89B0E /* Products */,
+				5C9328C6D21C15AE964A58E3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,11 +117,13 @@
 			children = (
 				19B7DB2D1C18149800E89B0E /* AppDelegate.swift */,
 				19B7DB2F1C18149800E89B0E /* ViewController.swift */,
+				195B1B521C19470A00CA1780 /* SecondViewController.swift */,
 				19B7DB311C18149800E89B0E /* Main.storyboard */,
 				19B7DB341C18149800E89B0E /* Assets.xcassets */,
 				19B7DB361C18149800E89B0E /* LaunchScreen.storyboard */,
 				19B7DB391C18149800E89B0E /* Info.plist */,
 				19B7DB5B1C1829D900E89B0E /* ApiHelper.swift */,
+				195B1B541C19A95700CA1780 /* UserModel.swift */,
 				195B1B501C187CAB00CA1780 /* ApiSignup.swift */,
 			);
 			path = myfirstapp;
@@ -147,11 +150,18 @@
 		19B7DB5D1C18310000E89B0E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				195B1B4E1C185ECD00CA1780 /* FBSDKShareKit.framework */,
-				19B7DB641C18354600E89B0E /* FBSDKLoginKit.framework */,
-				19B7DB621C18333D00E89B0E /* FBSDKCoreKit.framework */,
+				6827C18494DA9B955A0B4849 /* Pods_myfirstapp.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C9328C6D21C15AE964A58E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D96447BA073CC93F8AB0895 /* Pods-myfirstapp.debug.xcconfig */,
+				4AC3DE07FEA5F76525FE8555 /* Pods-myfirstapp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19B7DB521C18149800E89B0E /* Build configuration list for PBXNativeTarget "myfirstapp" */;
 			buildPhases = (
+				879BE2DCFB3AF939075DDD2D /* Check Pods Manifest.lock */,
 				19B7DB261C18149700E89B0E /* Sources */,
 				19B7DB271C18149700E89B0E /* Frameworks */,
 				19B7DB281C18149700E89B0E /* Resources */,
+				46C35B87415CD82AB2AA36B4 /* Embed Pods Frameworks */,
+				3EEF33EF34B506A4252C6D02 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -282,6 +295,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3EEF33EF34B506A4252C6D02 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myfirstapp/Pods-myfirstapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46C35B87415CD82AB2AA36B4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myfirstapp/Pods-myfirstapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		879BE2DCFB3AF939075DDD2D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		19B7DB261C18149700E89B0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -290,6 +351,8 @@
 				19B7DB301C18149800E89B0E /* ViewController.swift in Sources */,
 				19B7DB2E1C18149800E89B0E /* AppDelegate.swift in Sources */,
 				195B1B511C187CAB00CA1780 /* ApiSignup.swift in Sources */,
+				195B1B531C19470A00CA1780 /* SecondViewController.swift in Sources */,
+				195B1B551C19A95700CA1780 /* UserModel.swift in Sources */,
 				19B7DB5C1C1829D900E89B0E /* ApiHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +493,7 @@
 		};
 		19B7DB531C18149800E89B0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D96447BA073CC93F8AB0895 /* Pods-myfirstapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -449,6 +513,7 @@
 		};
 		19B7DB541C18149800E89B0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AC3DE07FEA5F76525FE8555 /* Pods-myfirstapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
